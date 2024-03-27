@@ -1,0 +1,6 @@
+Age = int(input("Please enter your age: "))
+Weight = int(input("Please enter your weight om pounds: "))
+Heart_rate = int(input("Please enter your heart rate in beats per minute: "))
+Time = int(input("Please enter your length of your workout in minutes: "))
+Calories = float(((Age*0.2757+Weight*0.03295+Heart_rate*1.0781-75.4991)*Time)/8.368)
+print("Calories burned: ", Calories)
